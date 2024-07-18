@@ -1,0 +1,10 @@
+{
+  "languages": ["java"],
+  "build": {
+    "builder": "maven",
+    "command": "mvn clean install"
+  },
+  "start": {
+    "command": "java -jar target/PdfApplication.jar"
+  }
+}
